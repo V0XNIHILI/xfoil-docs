@@ -20,10 +20,10 @@ and viscosity, and an implied unit chord:
 
 The conventional definitions are
 
- Cl = L / q c
- Cd = D / q c
- Cm = M / q c^2
- Rc = V c / v
+ Cl = L / q c   |
+ Cd = D / q c   |
+ Cm = M / q c^2 |
+ Rc = V c / v   |
 
 so that the conventional and XFOIL definitions differ only by 
 the chord factor  c  or  c^2.
@@ -38,8 +38,10 @@ For example, a NACA 4412 airfoil is operated in the `OPER` menu at
 first with chord=1.0, and then with chord=0.5 (changed with `SCAL` 
 command in the `GDES` menu, say).  The results produced by XFOIL are:
 
+```
  c = 1.0 :    CL = 0.80    CD = 0.0082    (RE = 500000, Rc = 500000)
  c = 0.5 :    CL = 0.40    CD = 0.0053    (RE = 500000, Rc = 250000)
+```
 
 Since CL is not normalized with the chord, it is nearly proportional
 to the airfoil size.  It is not exactly proportional, since the true
