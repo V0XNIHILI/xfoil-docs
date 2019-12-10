@@ -1,8 +1,55 @@
 ---
-nav_order: 6
+nav_order: 4
 ---
 
-# Viscous Formulation
+# Formulations
+{: .no_toc }
+
+Please note that this 'page' originally did not exist in the table of contents, but I combined the
+various formulations as presented in there on one page here.
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Inviscid
+
+The inviscid formulation of XFOIL is a simple linear-vorticity stream
+function panel method.  A finite trailing edge base thickness is modeled
+with a source panel.  The equations are closed with an explicit Kutta
+condition.  A high-resolution inviscid calculation with the default 
+160 panels requires seconds to execute on a RISC workstation.  Subsequent 
+operating points for the same airfoil but different angles of attack 
+are obtained nearly instantly.
+
+A Karman-Tsien compressibility correction is incorporated, allowing
+good compressible predictions all the way to sonic conditions.  The
+theoretical foundation of the Karman-Tsien correction breaks down
+in supersonic flow, and as a result accuracy rapidly degrades as the
+transonic regime is entered.  Of course, shocked flows cannot be
+predicted with any certainty.
+
+## Inverse
+
+There are two types of inverse methods incorporated in XFOIL:
+Full-Inverse and Mixed-Inverse. The Full-Inverse formulation
+is essentially Lighthill's and van Ingen's complex mapping method,  
+which is also used in the Eppler code and Selig's PROFOIL code.  
+It calculates the entire airfoil geometry from the entire surface
+speed distribution. The Mixed-Inverse formulation is simply
+the inviscid panel formulation (the discrete governing equations
+are identical) except that instead of the panel vortex strengths
+being the unknowns, the panel node coordinates are treated as
+unknowns wherever the surface speed is prescribed. Only a part
+of the airfoil is altered at any one time, as will be described later.  
+Allowing the panel geometry to be a variable results in a non-linear
+problem, but this is solved in a straightforward manner with
+a full-Newton method.
+
+
+## Viscous
 
 The boundary layers and wake are described with a two-equation lagged
 dissipation integral BL formulation and an envelope e^n transition
