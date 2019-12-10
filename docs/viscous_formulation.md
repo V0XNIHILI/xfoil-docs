@@ -1,3 +1,7 @@
+---
+nav_order: 6
+---
+
 # Viscous Formulation
 
 The boundary layers and wake are described with a two-equation lagged

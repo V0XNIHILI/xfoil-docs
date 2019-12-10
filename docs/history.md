@@ -1,3 +1,7 @@
+---
+nav_order: 2
+---
+
 # History
 
 XFOIL 1.0 was written by Mark Drela in 1986. The main goal

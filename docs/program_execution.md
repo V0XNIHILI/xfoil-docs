@@ -1,3 +1,7 @@
+---
+nav_order: 8
+---
+
 # Program Execution
 
 XFOIL is executed with

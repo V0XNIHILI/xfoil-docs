@@ -1,3 +1,7 @@
+---
+nav_order: 5
+---
+
 # Inverse Formulation
 
 There are two types of inverse methods incorporated in XFOIL:

@@ -1,3 +1,7 @@
+---
+nav_order: 4
+---
+
 # Inviscid Formulation
 
 The inviscid formulation of XFOIL is a simple linear-vorticity stream

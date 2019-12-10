@@ -1,10 +1,21 @@
+---
+nav_order: 7
+---
+
 # Data Structure
+{: .no_toc }
 
 XFOIL stores all its data in RAM during execution. Saving of the data
 to files is NOT normally performed automatically, so the user must be
 careful to save work results before exiting XFOIL. The exception to
 this is optional automatic saving to disk of polar data as it's being
 computed in OPER (described later).
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Stored airfoils and polars
 

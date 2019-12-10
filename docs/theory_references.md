@@ -1,3 +1,7 @@
+---
+nav_order: 3
+---
+
 # Theory References
 
 The general XFOIL methodology is described in
