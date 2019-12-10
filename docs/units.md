@@ -49,7 +49,8 @@ to the airfoil size.  It is not exactly proportional, since the true
 chord Reynolds number Rc is different, and there is always a weak 
 Reynolds number effect on lift.  In contrast,  the CD for the smaller 
 airfoil is significantly greater than 1/2 times the larger-airfoil CD, 
-since chord Reynolds number has a significant impact on profile drag.  
+since chord Reynolds number has a significant impact on profile drag.
+
 Repeating the c = 0.5 case at RE = 1000000, produces the expected 
 result that CL and CD are exactly 1/2 times their c = 1.0 values.
 

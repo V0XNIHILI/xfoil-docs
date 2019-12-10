@@ -14,7 +14,7 @@ inviscid analysis (`OPERi`), geometry design (`GDES`), and Full-Inverse
 routines will fail if a "reasonable" problem is not specified.  
 Typical failure scenarios are:
 
-- Viscous Analysis (OP`ERv)
+- Viscous Analysis (`OPERv`)
   - Massive separation from excessive airfoil thickness,
     flap deflection, or angle of attack
   - Inherently unsteady flow (von Karman vortex street, etc.)
