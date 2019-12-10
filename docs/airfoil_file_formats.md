@@ -1,4 +1,5 @@
 # Airfoil file formats
+{: .no_toc }
 
 LOAD recognizes four airfoil file formats:  Plain,  Labeled,  ISES,  MSES.
 All data lines are significant with the exception of lines beginning

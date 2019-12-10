@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
+
 # XFOIL 6.9  User Primer
 **THE last update   30 Nov 2001**
 
