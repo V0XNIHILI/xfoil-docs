@@ -23,10 +23,12 @@ XFOIL 6.9 stores multiple polars and associated airfoils and parameters
 during one interactive session. Each such data set is designated by its
 "stored polar" index:
 
+```
 polar 1: x,y, CL(a), CD(a)... Re, Ma, Ncrit...
 polar 2: x,y, CL(a), CD(a)... Re, Ma, Ncrit...
 .
 .
+```
 
 Not all of the data need to be present for each stored polar.
 For example, x,y would be absent if the CL,CD polar was read in

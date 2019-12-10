@@ -8,8 +8,7 @@ permalink: /
 # XFOIL 6.9  User Primer
 **THE last update   30 Nov 2001**
 
-Mark Drela, MIT Aero & Astro</br>
-Harold Youngren, Aerocraft, Inc.
+Mark Drela, MIT Aero & Astro | Harold Youngren, Aerocraft, Inc.
 
 ## General Description
 
