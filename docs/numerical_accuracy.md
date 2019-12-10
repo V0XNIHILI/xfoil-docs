@@ -4,15 +4,13 @@ nav_order: 15
 ---
 
 # Numerical accuracy
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ## Panel density requirements
 
