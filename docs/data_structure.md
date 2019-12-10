@@ -1,4 +1,5 @@
 ---
+permalink: /data-structure/
 nav_order: 5
 ---
 

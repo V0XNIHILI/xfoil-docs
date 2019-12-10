@@ -1,4 +1,5 @@
 ---
+permalink: /formulations/
 nav_order: 4
 ---
 

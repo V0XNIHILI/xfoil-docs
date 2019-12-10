@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Home
-nav_order: 1
 permalink: /
+nav_order: 1
 ---
 
 # XFOIL 6.9  User Primer

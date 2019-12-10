@@ -1,4 +1,5 @@
 ---
+permalink: /history/
 nav_order: 2
 ---
 

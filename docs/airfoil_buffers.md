@@ -1,4 +1,5 @@
 ---
+permalink: /airfoil-buffers/
 nav_order: 8
 ---
 

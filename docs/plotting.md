@@ -1,4 +1,5 @@
 ---
+permalink: /plotting/
 nav_order: 13
 ---
 

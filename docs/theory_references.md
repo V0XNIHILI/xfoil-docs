@@ -1,4 +1,5 @@
 ---
+permalink: /theory-references/
 nav_order: 3
 ---
 

@@ -1,4 +1,5 @@
 ---
+permalink: /numerical-accuracy/
 nav_order: 11
 ---
 

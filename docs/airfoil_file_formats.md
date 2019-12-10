@@ -1,4 +1,5 @@
 ---
+permalink: /airfoil-file-formats/
 nav_order: 7
 ---
 
