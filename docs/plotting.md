@@ -14,32 +14,32 @@ nav_order: 13
 
 ## Polar calculations and plotting
 
-The polar calculation facility driven from the OPER menu deserves
+The polar calculation facility driven from the `OPER` menu deserves
 a detailed description. It has been considerably upgraded from
 previous XFOIL versions.
 
-The simplest way to create a polar is to issue the PACC command
+The simplest way to create a polar is to issue the `PACC` command
 which sets the auto polar accumulation toggle and asks for the
 optional save and dump filenames. If either filename is
 given, each computed operating point will be stored internally
 and also written to the specified file. If no filename is given,
 the automatic writing is not performed.
 
-The polar's operating points can be computed individually with ALFA,
-or more conveniently en masse with ASEQ. One can also use CL or CSEQ,
+The polar's operating points can be computed individually with `ALFA`,
+or more conveniently en masse with `ASEQ`. One can also use `CL` or `CSEQ`,
 although these will not work close to CLmax.
 
-The polar can be plotted anytime with PPLO. If previous polars have been
-computed or read in with PGET, they can be plotted as well. If a polar
+The polar can be plotted anytime with `PPLO`. If previous polars have been
+computed or read in with `PGET`, they can be plotted as well. If a polar
 is deemed incomplete, additional points can be computed as needed.
 
 If automatic writing of a polar was not chosen (no filename was given
-for PACC), the polar can be written later all at once with the PWRT
+for `PACC`), the polar can be written later all at once with the `PWRT`
 command. The only drawback to this approach is that if the program
 crashes during a polar calculation sweep for whatever reason, the
 computed polar and all other stored information will be lost.
 
-If existing filenames are given to PACC, the subsequent computed
+If existing filenames are given to `PACC`, the subsequent computed
 points will be appended to these files, but only if the airfoil name
 and flow parameters in the file match the current parameters.
 This is to prevent clobbering of the polar file with "wrong"
@@ -49,7 +49,7 @@ the user of what's going on.
 ## Off-line polar plotting
 
 Polar save file(s) can also be plotted off-line with the separate
-program PPLOT. This is entirely menu driven, and is simply executed:
+program `PPLOT`. This is entirely menu driven, and is simply executed:
 
 ```
  % pplot
@@ -59,7 +59,7 @@ The file pplot.def contains plotting parameters, and is read
 automatically if available. If it's not available, then internal
 defaults are used.
 
-Like the RGET,FREF commands in OPER, PPLOT permits reference data
+Like the `RGET`,`FREF` commands in `OPER`, `PPLOT` permits reference data
 to be overlaid. A reference polar data file has the following form:
 
 ```
